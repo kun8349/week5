@@ -57,7 +57,8 @@
     </ul>
   </header>-->
 <div class="d-flex container">  
-  <header class="header-list float">
+  <div class="header-footer d-flex flex-column justify-content-between">
+    <header class="header-list float">
       <ul>
         <li class="d-flex">
           <h1><img src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER"></h1>
@@ -111,41 +112,125 @@
           </a>
         </li>
       </ul>
+    </header>
     <footer class="footer">
-      <div class="d-flex align-items-center">
-        <img src="assets/images/andychen.jpeg" alt="andychen">
-        <p>
-          Andy Chen
-          <br>
-          <span>
-            andy0401@mail.com
-          </span>
-        </p>
-      </div>
+        <div class="d-flex align-items-center">
+          <img src="assets/images/andychen.jpeg" alt="andychen">
+          <p>
+            Andy Chen
+            <br>
+            <span>
+              andy0401@mail.com
+            </span>
+          </p>
+        </div>
     </footer>
-  </header>
-  <div class="content">
-  
-  <ul class="d-flex justify-content-between align-items-center">
-    <li class="d-flex">
-      <h2>Assignment</h2>
-      <h3 class="d-flex align-items-center">
-        All Courses
-        <span class="material-symbols-outlined arrow">
-          <a href="">keyboard_arrow_down</a>
+  </div>
+
+  <div class="assignment">
+  <nav class="tilte">
+    <ul class="d-flex justify-content-between align-items-center">
+      <li class="d-flex">
+        <h2>Assignment</h2>
+        <h3 class="d-flex align-items-center">
+          All Courses
+          <span class="material-symbols-outlined arrow">
+            <a href="">keyboard_arrow_down</a>
+          </span>
+        </h3>
+      </li>
+      <li>
+        <span class="material-symbols-outlined search">
+          <a href="">search</a>
         </span>
-      </h3>
+        <span class="material-symbols-outlined active">
+          <a href="">notifications_active</a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <ul class="assignment-title d-flex justify-content-between">
+    <li class="d-flex">
+      <h2>All (4)</h2>
+      <span class="material-symbols-outlined arrow">
+        <a href="">keyboard_arrow_down</a>
+      </span>
     </li>
     <li>
-      <span class="material-symbols-outlined search">
-        <a href="">search</a>
-      </span>
-      <span class="material-symbols-outlined active">
-        <a href="">notifications_active</a>
-      </span>
+      <span><a href="">2 comments</a></span>
     </li>
   </ul>
+  <div class="assignment-content d-flex justify-content-between">
+    <ul class="content-left">
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Chapter Assignment 2</span>
+            <span>4 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>Please check this file…</p>
+              <span>Emily Wang</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Chapter Assignment 1</span>
+            <span>12 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>My Homework</p>
+              <span>David Xu</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Final Assignment</span>
+            <span>18 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>Have a problem with this…</p>
+              <span>Tony Wei</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Final Assignment</span>
+            <span>19 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>Did I do it right?</p>
+              <span>Christina Lin</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <ul class="content-right">
+      <li class="d-flex justify-content-between align-items-center">
+        <div>
+          <span>Chapter Assignment 2 / HTML&CSS</span>
+          <p>Please check this file for me, thanks!</p>
+        </div>
+        <span class="material-symbols-outlined content-right-icon">
+          <a href="">more_vert</a>
+        </span>
+      </li>
+      <li>123</li>
+    </ul>
+  </div>
 </div>
+      
+
+  
+  
+
+
 </div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
