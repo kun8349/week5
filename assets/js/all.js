@@ -1,8 +1,10 @@
 "use strict";
 
-console.log('Hello!');
 $(document).ready(function () {
-  console.log('HesSchool Hello!');
+  $(".list-item").click(function (e) {
+    e.preventDefault();
+    $('.list-item').toggleClass("active");
+  });
 });
 "use strict";
 
