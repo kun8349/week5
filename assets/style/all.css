@@ -68,7 +68,6 @@ img {
   height: auto; }
 
 .container {
-  width: 1280px;
   margin: 0 auto;
   height: 100vh; }
 
@@ -104,8 +103,10 @@ img {
 
 .icon {
   font-size: 24px !important;
-  font-weight: 900 !important;
   color: black !important; }
+  .icon:hover {
+    color: #198754 !important;
+    position: relative; }
 
 .vertical-lr {
   -webkit-writing-mode: vertical-lr;
@@ -130,8 +131,14 @@ img {
     margin-bottom: 29px; }
   .header-footer a {
     color: #212529; }
-    .header-footer a:hover {
-      color: #198754; }
+    .header-footer a:hover ::before {
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 32px;
+      background: #198754;
+      left: -32px;
+      top: -4px; }
 
 .footer {
   text-align: left; }
@@ -159,25 +166,35 @@ img {
     font-size: 24px;
     line-height: 33px;
     margin-right: 50px; }
-  .tilte h3 {
-    font-size: 16px; }
+  .tilte select {
+    border: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    outline: 0; }
+    .tilte select:hover {
+      cursor: pointer;
+      color: #198754; }
   .tilte .search {
     margin-right: 26px; }
     .tilte .search:first-child {
       margin-right: 0; }
 
-.arrow {
-  margin-left: 9px; }
-  .arrow a:hover {
-    color: #28FF28; }
-
 .assignment-title {
   margin-top: 48px;
   margin-bottom: 8px; }
+  .assignment-title select {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0; }
+    .assignment-title select:hover {
+      cursor: pointer;
+      color: #198754; }
   .assignment-title a {
     color: #6C757D; }
-  .assignment-title h2 {
-    font-size: 16px; }
+    .assignment-title a:hover {
+      opacity: 0.5; }
   .assignment-title li:last-child span {
     font-size: 12px; }
 
@@ -211,8 +228,7 @@ img {
 
 .content-right {
   width: 63.52%;
-  text-align: left;
-  height: 80vh; }
+  text-align: left; }
   .content-right li {
     padding: 16px 32px 22px 16px;
     border: 1px solid #CED4DA;
@@ -264,25 +280,78 @@ img {
 
 .border {
   border-bottom: 1px solid #CED4DA;
-  width: 488px;
+  max-width: 798px;
   margin: 0 auto; }
 
 .content-left-footer {
   margin-top: 16.5px; }
 
-.assignment-page input {
+.footer {
+  margin-top: 16px; }
+
+.assignment-page a {
   font-size: 16px;
   font-weight: bold;
   border: 1px solid #198754;
   color: #198754;
   background-color: white;
   padding: 8px 32px; }
-  .assignment-page input:last-child {
+  .assignment-page a:last-child {
     background-color: #198754;
     color: white;
     margin-left: 16px; }
-  .assignment-page input:hover {
+    .assignment-page a:last-child:hover {
+      cursor: pointer;
+      background-color: #13613e;
+      border: 1px solid #13613e; }
+  .assignment-page a:first-child:focus {
+    outline-color: #148214;
+    outline-width: 3px;
+    outline-style: solid;
+    -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8); }
+  .assignment-page a:hover {
+    background-color: #198754;
     cursor: pointer;
-    opacity: 0.5; }
+    color: white;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.reply-title {
+  background-color: #F8F9FA;
+  border-top: 1px solid #CED4DA;
+  border-bottom: 1px solid #CED4DA;
+  margin: 12.5px -32px 0 -16px;
+  padding: 18px 16px 19px; }
+  .reply-title select {
+    border: none;
+    background-color: #F8F9FA;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0; }
+    .reply-title select:hover {
+      cursor: pointer; }
+  .reply-title a {
+    margin-right: 12px; }
+    .reply-title a:first-child {
+      margin-left: 24px; }
+
+textarea {
+  border: none;
+  outline: 0;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5; }
+  textarea::-webkit-input-placeholder {
+    color: #CED4DA; }
+  textarea::-moz-placeholder {
+    color: #CED4DA; }
+  textarea:-ms-input-placeholder {
+    color: #CED4DA; }
+  textarea::-ms-input-placeholder {
+    color: #CED4DA; }
+  textarea::placeholder {
+    color: #CED4DA; }
 
 /*# sourceMappingURL=all.css.map */
