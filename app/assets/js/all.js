@@ -1,5 +1,8 @@
-console.log('Hello!');
+$(document).ready(function() {
+  $(".list-item").click(function (e) {
+    e.preventDefault();
+    $('.list-item').toggleClass("active");
+  });
+  
+})
 
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
-});

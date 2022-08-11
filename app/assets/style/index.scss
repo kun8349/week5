@@ -1,0 +1,202 @@
+.assignment{
+    padding: 32px;
+    width: 76.85%;
+    height: 100vh;
+}
+.tilte{
+    color: #212529;
+    h2{
+        font-size: 24px;
+        line-height: 33px;
+        margin-right: 50px;
+    }
+    select{
+        border: none;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+        outline: 0;
+        &:hover{
+            cursor: pointer;
+            color: #198754;
+        }
+    }
+    .search{
+        margin-right: 26px;
+        &:first-child{
+            margin-right: 0;
+        }
+    }   
+}
+.assignment-title{
+    margin-top: 48px;
+    margin-bottom: 8px;
+    select{
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        outline: 0;
+        &:hover{
+            cursor: pointer;
+            color: #198754;
+        }
+    }
+    a{
+        color: #6C757D;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    li{
+        &:last-child{
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+}
+.assignment-content{
+    span{
+        display: block;
+        font-size: 12px;
+        line-height: 15px;
+        color: #6C757D;
+        font-weight: 400;
+    }
+    p{
+        font-size: 16px;
+        line-height: 19px;
+        color: #212529;
+    }
+}
+.content-left{
+    width: 34.8%;
+    
+    li{
+        border: 1px solid #CED4DA;
+        border-top:none ;    
+    }
+    &:first-child{
+        border-top: 1px solid #CED4DA;
+    }
+    span{
+        margin-bottom: 4px;
+        text-align: left;
+    }
+    a{
+        display: block;
+        padding: 12px;
+        &:hover{
+            background-color: #F8F9FA;
+        }
+    }
+}
+.content-right{
+    width: 63.52%;
+    text-align: left;
+    li{
+        padding: 16px 32px 22px 16px;
+        border: 1px solid #CED4DA;
+        border-top:none ; 
+        &:first-child{
+            border-top: 1px solid #CED4DA;
+            background-color: #F8F9FA;
+            padding: 12px 16px;
+        }
+    }
+}
+.content-tilte{
+    margin-bottom: 16px;
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    h2{
+        font-size: 16px;
+        line-height: 19px;
+        color: #212529;
+        font-weight: bold;
+    }
+    span{
+        margin-top: 4px;
+    }
+}
+.content-left-word{
+    padding-left: 48px;
+    p{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    h2{
+        margin-left: 8px;
+    }
+    a{  
+        margin-top: 16px;
+        width: 176px;
+        padding: 8px 12px;
+        border: 1px solid #CED4DA;   
+        background-color: #CED4DA; 
+        margin-bottom: 16.5px;
+        color: #212529;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .span-color{
+        display: inline;
+        color: #198754;
+        font-size: 16px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+.border{
+    border-bottom: 1px solid #CED4DA;
+    max-width: 798px;
+    margin: 0 auto;
+}
+.content-left-footer{
+    margin-top: 16.5px;
+}
+.footer{
+    margin-top: 16px;
+}
+.assignment-page{
+    a{
+        font-size: 16px;
+        font-weight: bold;
+        border: 1px solid #198754;
+        color: #198754;
+        background-color: white;
+        padding: 8px 32px;
+        &:last-child{
+            background-color: #198754;
+            color: white;
+            margin-left: 16px;
+            &:hover{
+                cursor: pointer;
+                background-color:#13613e;
+                border: 1px solid #13613e;
+            }
+        }
+        &:first-child{
+            &:focus{
+                outline-color:#148214;
+                outline-width: 3px;
+                outline-style: solid;
+                box-shadow: 10px 10px 5px rgba(0,0,0,0.8) ;
+            }
+        }
+        &:hover{
+            background-color: #198754;
+            cursor: pointer;
+            color: white;
+            transition: all 0.5s; 
+            
+        }
+    }
+  }

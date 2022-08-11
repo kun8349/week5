@@ -7,23 +7,130 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
   <link rel="stylesheet" href="./assets/style/all.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" href="assets/style/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header class="header">
-    <h1>Hello</h1>
-  </header>
+  <!--<header class="container bg-light width">
+    <ul class="row fs-6">
+      <li>
+        <h1><img class="fs-4 mb-4" src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER"></h1>
+      </li>
+      <li class="d-flex mb-2">
+        <span class="material-symbols-outlined me-3">
+          analytics
+          </span>
+        <p>Dashboard</p>
+      </li>
+      <li class="d-flex mb-2">
+        <span class="material-symbols-outlined  me-3">
+          forum
+          </span>
+        <p>Question</p>
+      </li>
+      <li class="d-flex mb-2">
+        <span class="material-symbols-outlined  me-3">
+          assignment
+          </span>
+        <p>Assignment</p>
+      </li>
+      <li class="d-flex mb-2">
+        <span class="material-symbols-outlined  me-3">
+          video_library
+          </span>
+        <p>Course</p>
+      </li>
+      <li class="d-flex mb-2">
+        <span class="material-symbols-outlined  me-3">
+          supervisor_account
+          </span>
+        <p>Admin</p>
+      </li>
+      <li class="d-flex">
+        <span class="material-symbols-outlined  me-3">
+          settings
+          </span>
+        <p>Settings</p>
+      </li>
+    </ul>
+  </header>-->
+<div class="d-flex container">  
+  <div class="header-footer d-flex flex-column justify-content-between">
+    <header class="header-list float">
+      <ul>
+        <li class="d-flex">
+          <h1><img src="./assets/images/logo-ANSWER.svg" alt="logo-ANSWER"></h1>
+        </li>  
+        <li>
+          <a href="" class="d-flex icon">
+            <span class="material-symbols-outlined">
+              analytics
+            </span>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="d-flex icon">
+            <span class="material-symbols-outlined">
+              forum
+            </span>
+            <p>Question</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html" class="d-flex icon">
+            <span class="material-symbols-outlined">
+              assignment
+              </span>
+            <p>Assignment</p>
+          </a>
+        </li>
+        <li>
+          <a href=""  class="d-flex icon">
+            <span class="material-symbols-outlined">
+              video_library
+            </span>
+            <p>Course</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="d-flex icon">
+            <span class="material-symbols-outlined">
+              supervisor_account
+              </span>
+            <p>Admin</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="d-flex icon">
+            <span class="material-symbols-outlined">
+              settings
+            </span>
+            <p>Settings</p>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <footer class="footer">
+        <div class="d-flex align-items-center">
+          <img src="assets/images/andychen.jpeg" alt="andychen">
+          <p>
+            Andy Chen
+            <br>
+            <span>
+              andy0401@mail.com
+            </span>
+          </p>
+        </div>
+    </footer>
+  </div>
 
   <%- contents %>
-
-  <footer class="footer">
-   
-  </footer>
+</div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
+</main>
 </body>
 
 </html>

@@ -4,8 +4,159 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-<div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-primary">Left</button>
-  <button type="button" class="btn btn-primary">Middle</button>
-  <button type="button" class="btn btn-primary">Right</button>
+<div class="assignment">
+  <nav class="tilte">
+    <ul class="d-flex justify-content-between align-items-center">
+      <li class="d-flex">
+        <h2>Assignment</h2>
+        <select name="" id="">
+          <option value="">All Courses</option>
+        </select>
+      </li>
+      <li>
+        <span class="material-symbols-outlined search">
+          <a href="" class="icon">search</a>
+          <a href="" class="icon">notifications_active</a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <ul class="assignment-title d-flex justify-content-between">
+    <li class="d-flex">
+      <select name="" id="">
+        <option value="">All (4)</option>
+      </select>
+    </li>
+    <li>
+      <span><a href="">2 comments</a></span>
+    </li>
+  </ul>
+  <div class="assignment-content d-flex justify-content-between">
+    <ul class="content-left">
+      <li class="list-item">
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Chapter Assignment 2</span>
+            <span>4 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>Please check this file…</p>
+              <span>Emily Wang</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Chapter Assignment 1</span>
+            <span>12 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>My Homework</p>
+              <span>David Xu</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Final Assignment</span>
+            <span>18 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>Have a problem with this…</p>
+              <span>Tony Wei</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="d-flex justify-content-between align-items-center">
+            <span>Final Assignment</span>
+            <span>19 hrs ago</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+              <p>Did I do it right?</p>
+              <span>Christina Lin</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <ul class="content-right d-flex flex-column justify-content-between">
+      <li class="d-flex justify-content-between align-items-center">
+        <div>
+          <span>Chapter Assignment 2 / HTML&CSS</span>
+          <h2>Please check this file for me, thanks!</h2>
+        </div>
+        <span class="material-symbols-outlined">
+          <a class="icon" href="">more_vert</a>
+        </span>
+      </li>
+      <li>
+        <div class="content-tilte d-flex">
+          <img src="assets/images/emilywang.jpeg" alt="">
+          <h2>
+            Emily Wang
+            <span>10:38 AM (4 hours ago)</span>
+          </h2>
+        </div>
+        <div class="content-left-word">
+          <p>
+            Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin.
+            <br>
+            What is the gap or extra space below image?
+          </p>
+          <div class="border">
+            <a href="" class="d-flex align-items-center">
+              <span class="material-symbols-outlined icon vertical-lr">
+                  attachment
+              </span>
+              <h2>HW-2-David.zip</h2>
+            </a>
+          </div>
+        </div>
+        <div class="content-left-footer d-flex justify-content-between">
+          <div class="d-flex content-tilte">
+            <img src="assets/images/andychen.jpeg" alt="">
+            <h2>
+              Emily Wang
+              <span>10:38 AM (4 hours ago)</span>
+            </h2>
+          </div>
+          <div class="material-symbols-outlined">
+            <a href="" class="icon">grade</a>
+            <a href="" class="icon">edit</a>
+          </div>
+        </div>
+        <div class="content-left-word">
+          <p>
+            Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.
+            <br>
+            <br>
+             You can:
+            <br>
+            <br>
+            <p class="text-indent-28">• adjust the <span class="span-color">vertical-align</span> 　of the image  to position it elsewhere (e.g. the <span class="span-color">middle</span> le　　) or
+            <br>  
+            <p class="text-indent-28">• change the <span class="span-color">display</span> 　so it isn’t inline.</p>
+          </p>
+        </div>
+      </li>
+      <div class="footer d-flex justify-content-between align-items-center">
+        <span class="material-symbols-outlined ">
+          <a href="" class="icon">first_page</a>
+          <a href="" class="icon">last_page</a>
+        </span>
+        <div class="assignment-page d-flex">
+          <a href="">Mark as read</a>
+          <a href="reply.html">Reply</a>
+        </div>
+      </div>
+    </ul>
+  </div>
 </div>
+      
+
+  
+  
+
